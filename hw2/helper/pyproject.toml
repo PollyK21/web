@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "helper"
+version = "0.0.1"
+description = "helper"
+authors = ["P.A.N.D.A.M"]
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+prettytable = "2.2.0"
+prompt_toolkit = "3.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+assistant = "helper.main:main"

@@ -23,22 +23,21 @@ def factorize_single(number):
 
 
 def factorize2(*numbers):
-    if __name__ == '__main__':
-        results = []
-        with ThreadPool(processes=multiprocessing.cpu_count()) as pool:
-            results = pool.map(factorize_single, numbers)
-        return results
+    results = []
+    # with ThreadPool(processes=multiprocessing.cpu_count()) as pool:
+    with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
+        results = pool.map(factorize_single, numbers)
+    return results
 
 
-start_time = time.time()
-result = factorize(128, 255, 99999, 10651060)
-end_time = time.time()
+if __name__ == '__main__':
+    start_time = time.time()
+    result = factorize(128, 255, 99999, 10651060, 90000, 990000, 999000,60000,66000,560000)
+    end_time = time.time()
 
+    start_time2 = time.time()
+    result2 = factorize2(128, 255, 99999, 10651060, 90000, 990000, 999000,60000,66000,560000)
+    end_time2 = time.time()
 
-start_time2 = time.time()
-result2 = factorize2(128, 255, 99999, 10651060)
-end_time2 = time.time()
-
-
-print("first", end_time - start_time)
-print("multi", end_time2 - start_time2)
+    print("first", end_time - start_time)
+    print("multi", end_time2 - start_time2)

@@ -1,6 +1,6 @@
 import time
 import multiprocessing
-from multiprocessing.pool import ThreadPool
+import multiprocessing.pool
 
 
 def factorize(*number):
@@ -32,11 +32,11 @@ def factorize2(*numbers):
 
 if __name__ == '__main__':
     start_time = time.time()
-    result = factorize(128, 255, 99999, 10651060, 90000, 990000, 999000,60000,66000,560000)
+    result = factorize(128, 255, 99999, 10651060)
     end_time = time.time()
 
     start_time2 = time.time()
-    result2 = factorize2(128, 255, 99999, 10651060, 90000, 990000, 999000,60000,66000,560000)
+    result2 = factorize2(128, 255, 99999, 10651060)
     end_time2 = time.time()
 
     print("first", end_time - start_time)

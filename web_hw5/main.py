@@ -4,14 +4,15 @@ from datetime import datetime, timedelta
 import sys
 import ssl
 
+# python3 main.py 2
 
 class CurrencyAPI:
     API_URL = "https://api.privatbank.ua/p24api/exchange_rates?json&date="
 
     async def fetch_currency_rate(self, date):
-        ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
-        # ssl_context.verify_mode = ssl.CERT_NONE
-        ssl_context.check_hostname = False
+        # ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        # # ssl_context.verify_mode = ssl.CERT_NONE
+        # ssl_context.check_hostname = False
         async with aiohttp.ClientSession() as session:
             # ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
             # ssl_context.check_hostname = False  
@@ -59,4 +60,3 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 
-# python3 main.py 2

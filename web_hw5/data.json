@@ -1,27 +1,214 @@
-[
-    "USD",
-    "UZS",
-    "AUD",
-    "AZN",
-    "BYN",
-    "CAD",
-    "CHF",
-    "CNY",
-    "CZK",
-    "DKK",
-    "EUR",
-    "GBP",
-    "GEL",
-    "HUF",
-    "ILS",
-    "JPY",
-    "KZT",
-    "MDL",
-    "NOK",
-    "PLN",
-    "SEK",
-    "SGD",
-    "TMT",
-    "TRY",
-    "UAH"
-]
+{
+    "27.02.2024": {
+        "AUD": {
+            "sale": 25.1101,
+            "purchase": 25.1101
+        },
+        "AZN": {
+            "sale": 22.5639,
+            "purchase": 22.5639
+        },
+        "BYN": {
+            "sale": 13.9343,
+            "purchase": 13.9343
+        },
+        "CAD": {
+            "sale": 28.3551,
+            "purchase": 28.3551
+        },
+        "CHF": {
+            "sale": 43.5687,
+            "purchase": 43.5687
+        },
+        "CNY": {
+            "sale": 5.3268,
+            "purchase": 5.3268
+        },
+        "CZK": {
+            "sale": 1.6397,
+            "purchase": 1.6397
+        },
+        "DKK": {
+            "sale": 5.5804,
+            "purchase": 5.5804
+        },
+        "EUR": {
+            "sale": 41.5985,
+            "purchase": 41.5985
+        },
+        "GBP": {
+            "sale": 48.6332,
+            "purchase": 48.6332
+        },
+        "GEL": {
+            "sale": 14.0238,
+            "purchase": 14.0238
+        },
+        "HUF": {
+            "sale": 0.106741,
+            "purchase": 0.106741
+        },
+        "ILS": {
+            "sale": 10.501,
+            "purchase": 10.501
+        },
+        "JPY": {
+            "sale": 0.25455,
+            "purchase": 0.25455
+        },
+        "KZT": {
+            "sale": 0.085564,
+            "purchase": 0.085564
+        },
+        "MDL": {
+            "sale": 2.1429,
+            "purchase": 2.1429
+        },
+        "NOK": {
+            "sale": 3.6392,
+            "purchase": 3.6392
+        },
+        "PLN": {
+            "sale": 9.6586,
+            "purchase": 9.6586
+        },
+        "SEK": {
+            "sale": 3.7244,
+            "purchase": 3.7244
+        },
+        "SGD": {
+            "sale": 28.5281,
+            "purchase": 28.5281
+        },
+        "TMT": {
+            "sale": 10.7322,
+            "purchase": 10.7322
+        },
+        "TRY": {
+            "sale": 1.2318,
+            "purchase": 1.2318
+        },
+        "UAH": {
+            "sale": 1.0,
+            "purchase": 1.0
+        },
+        "USD": {
+            "sale": 38.3361,
+            "purchase": 38.3361
+        },
+        "UZS": {
+            "sale": 0.0030243,
+            "purchase": 0.0030243
+        },
+        "XAU": {
+            "sale": 77939.97,
+            "purchase": 77939.97
+        }
+    },
+    "26.02.2024": {
+        "AUD": {
+            "sale": 25.2303,
+            "purchase": 25.2303
+        },
+        "AZN": {
+            "sale": 22.5737,
+            "purchase": 22.5737
+        },
+        "BYN": {
+            "sale": 13.9404,
+            "purchase": 13.9404
+        },
+        "CAD": {
+            "sale": 28.4811,
+            "purchase": 28.4811
+        },
+        "CHF": {
+            "sale": 43.667,
+            "purchase": 43.667
+        },
+        "CNY": {
+            "sale": 5.329,
+            "purchase": 5.329
+        },
+        "CZK": {
+            "sale": 1.6399,
+            "purchase": 1.6399
+        },
+        "DKK": {
+            "sale": 5.5759,
+            "purchase": 5.5759
+        },
+        "EUR": {
+            "sale": 41.5628,
+            "purchase": 41.5628
+        },
+        "GBP": {
+            "sale": 48.7079,
+            "purchase": 48.7079
+        },
+        "GEL": {
+            "sale": 14.0238,
+            "purchase": 14.0238
+        },
+        "HUF": {
+            "sale": 0.107047,
+            "purchase": 0.107047
+        },
+        "ILS": {
+            "sale": 10.5774,
+            "purchase": 10.5774
+        },
+        "JPY": {
+            "sale": 0.25498,
+            "purchase": 0.25498
+        },
+        "KZT": {
+            "sale": 0.085039,
+            "purchase": 0.085039
+        },
+        "MDL": {
+            "sale": 2.1411,
+            "purchase": 2.1411
+        },
+        "NOK": {
+            "sale": 3.6491,
+            "purchase": 3.6491
+        },
+        "PLN": {
+            "sale": 9.639,
+            "purchase": 9.639
+        },
+        "SEK": {
+            "sale": 3.7269,
+            "purchase": 3.7269
+        },
+        "SGD": {
+            "sale": 28.5511,
+            "purchase": 28.5511
+        },
+        "TMT": {
+            "sale": 10.7322,
+            "purchase": 10.7322
+        },
+        "TRY": {
+            "sale": 1.2335,
+            "purchase": 1.2335
+        },
+        "UAH": {
+            "sale": 1.0,
+            "purchase": 1.0
+        },
+        "USD": {
+            "sale": 38.3527,
+            "purchase": 38.3527
+        },
+        "UZS": {
+            "sale": 0.0030243,
+            "purchase": 0.0030243
+        },
+        "XAU": {
+            "sale": 77783.11,
+            "purchase": 77783.11
+        }
+    }
+}
